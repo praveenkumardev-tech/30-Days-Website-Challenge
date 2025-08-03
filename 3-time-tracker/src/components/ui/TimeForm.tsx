@@ -41,7 +41,7 @@ const TimeForm = ({onAdd}: Props) => {
         onChange={(e) => setHours(e.target.value)}
         />
 
-        <Button className='w-full' onClick={handleSubmit}>
+        <Button className='w-full bg-black text-white' onClick={handleSubmit}>
             Add Activity
         </Button>
     </div>
